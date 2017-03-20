@@ -44,7 +44,7 @@ $.ajax({
      </section>
     </main>
         <center><div style="overflow:auto;width: 100px;height:60px;background:#ccc;float:0;top:0;padding:3px;">
-<p > <a href="views/wel.html"><b>Back To Main</b></a></p>
+<p > <a href="/"><b>Back To Main</b></a></p>
  `;
   $('#app2').html(html);
 
