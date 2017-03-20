@@ -4,9 +4,7 @@ $(`#app3`).html(`<div class="cssload-wrap">
   <div class="cssload-circle"></div>
   <div class="cssload-circle"></div>
   <div class="cssload-circle"></div>
-</div> 
-`;
-);
+</div> `);
 
 
 setTimeout(function(){
@@ -19,15 +17,15 @@ $.ajax({
 }).done(function(res){
   console.log(res);
   let html = `
-  <center>
   <font color="#FF1493">
+  <center>
     <h1>${res.Title}</h1>
     <h3>${res.Plot}</h1>
     <img src="${res.Poster}"/>
     </center>
     <h4> "Official Trailer" </h4>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/1ZdlAg3j8nI?ecver=1" frameborder="0" allowfullscreen></iframe>
-     <main>
+    <main>
      <section>
      <h4> "Images"</h4>
          <figure>
